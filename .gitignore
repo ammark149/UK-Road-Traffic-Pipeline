@@ -1,0 +1,10 @@
+# Python cache & environments
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.vscode/
+
+# SQLite databases
+*.db
+*.sqlite3
