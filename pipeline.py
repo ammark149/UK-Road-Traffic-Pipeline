@@ -27,7 +27,7 @@ bham_clean["all_motor_vehicles"] = pd.to_numeric(bham_clean["all_motor_vehicles"
 conn = sqlite3.connect("birmingham_traffic.db")
 bham_clean.to_sql("la_traffic", conn, if_exists="replace", index=False)
 
-# --- QUERY 1: 2015–2024 Yearly Trend (Feeds the Matplotlib Chart) ---
+#Query 1: 2015-2024
 query_1 = """
 SELECT 
     year, 
@@ -42,7 +42,7 @@ print("=== QUERY 1: 2015-2024 Yearly Trend ===")
 print(df_yearly)
 print("\n")
 
-# --- QUERY 2: Peak Traffic Year in Birmingham's History ---
+#Query 2
 query_2 = """
 SELECT 
     year, 
@@ -56,7 +56,7 @@ print("=== QUERY 2: Highest Traffic Year ===")
 print(df_peak)
 print("\n")
 
-# --- QUERY 3: 2019 vs 2020 Pandemic Drop ---
+#Query 3: Pandemic
 query_3 = """
 SELECT 
     year, 
