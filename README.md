@@ -14,7 +14,13 @@ The pipeline runs 3 SQL queries on the database:
 
 1. **10-Year Trend (2015–2024):** Pulls yearly traffic totals to generate the trend line chart.
 2. **Peak Traffic Year:** Finds the single year with the highest traffic volume in Birmingham.
-3. **Pandemic Impact:** Compares 2019 and 2020 traffic to calculate the exact drop during covid lockdowns.
+3. **Pandemic Impact:** Compares 2019 and 2020 traffic to calculate the exact drop during COVID-19 lockdowns.
+
+## Key Findings
+
+* **Peak Traffic (2019):** Birmingham traffic peaked in 2019 at 3.74 billion vehicle miles.
+* **Lockdown Drop (2020):** Traffic dropped by 19.9% (~745 million miles) in 2020 down to 2.99 billion vehicle miles.
+* **Recovery (2024):** Traffic rebounded to 3.66 billion vehicle miles in 2024, reaching 97.7% of pre-pandemic levels.
 
 ## Technologies Used
 
